@@ -1,1 +1,1 @@
-https://franciseshun.com
+Check it out at https://franciseshun.com
