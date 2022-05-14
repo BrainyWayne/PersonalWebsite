@@ -8,7 +8,7 @@ const BackgroundAnimation = () => (
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g opacity="0.15">
+      <g opacity="5">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -57,7 +57,7 @@ const BackgroundAnimation = () => (
         fill="#46737"
       >
         <animateMotion
-          dur="5s"
+          dur="10s"
           begin="1"
           repeatCount="indefinite"
           rotate="auto"
@@ -71,7 +71,7 @@ const BackgroundAnimation = () => (
         stroke="url(#paint7_linear)"
       >
         <animateMotion
-          dur="5s"
+          dur="10s"
           begin="1"
           repeatCount="indefinite"
           rotate="auto"
@@ -140,7 +140,7 @@ const BackgroundAnimation = () => (
         fill="#F46737"
       >
         <animateMotion
-          dur="5s"
+          dur="10s"
           begin="0"
           repeatCount="indefinite"
           rotate="auto"
@@ -154,7 +154,7 @@ const BackgroundAnimation = () => (
         stroke="url(#paint6_linear)"
       >
         <animateMotion
-          dur="5s"
+          dur="10s"
           begin="0"
           repeatCount="indefinite"
           rotate="auto"
