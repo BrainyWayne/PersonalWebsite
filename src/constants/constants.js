@@ -2,8 +2,8 @@ export const projects = [
   {
     title: 'MiNFT',
     description: "Using Next.js and TailwindCSS, I created an NFT tracking website. The place for crowd-sourced alpha on the hottest NFT projects",
-      image: '/images/1.webp',
-      tags: ['Next.js', 'TailwindCSS', 'Firebase','WebRTC'],
+    image: '/images/1.webp',
+    tags: ['Next.js', 'TailwindCSS', 'Firebase','WebRTC'],
     source: 'https://minft.me/',
     visit: 'https://minft.me/',
     id: 0,
@@ -20,8 +20,8 @@ export const projects = [
   {
     title: 'NZVC',
     description: "Investing in cutting edge companies at the edge of the world.",
-      image: '/images/3.webp',
-      tags: ['Next.js', 'Firebase'],
+    image: '/images/3.webp',
+    tags: ['Next.js', 'Firebase'],
     source: 'https://www.nzvc.co.nz/',
     visit: 'https://www.nzvc.co.nz/',
     id: 2,
@@ -35,8 +35,9 @@ export const projects = [
     visit: 'https://ehf.nzvc.co.nz/',
     id: 3,
   },
-];
-
+  def example():
+      a = 4
+      
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey', },
   { year: 2018, text: 'Began my journey as a mobile developer', },

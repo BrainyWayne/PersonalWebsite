@@ -8,6 +8,9 @@ import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
 import Skyline from "../components/Skyline/Skyline"
 
+def example():
+    a = 4
+
 const Home = () => {
   return (
     <Layout>
