@@ -3,14 +3,7 @@ import React from 'react';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { Box, Boxes, BoxNum, BoxText } from './AccomplishmentsStyles';
 
-// we kept the data inside our file instead of putting it on constants because it contains just 6 lines.
-const data = [
-  { number: 30, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students taught through Google DSC', },
-  { number: 500, text: 'Twitter Followers', },
-  { number: 5000, text: 'Github Stars', }
-];
-
+// The Accomplishments component renders a section displaying personal accomplishments.
 const Accomplishments = () => (
   <Section>
     <SectionTitle>Personal Accomplishments</SectionTitle>
@@ -24,5 +17,13 @@ const Accomplishments = () => (
     </Boxes>
   </Section>
 );
+
+// The data constant contains an array of accomplishment objects, each having a number and text property.
+const data = [
+  { number: 30, text: 'Open Source Projects'},
+  { number: 1000, text: 'Students taught through Google DSC', },
+  { number: 500, text: 'Twitter Followers', },
+  { number: 5000, text: 'Github Stars', }
+];
 
 export default Accomplishments;
